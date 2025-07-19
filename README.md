@@ -12,13 +12,9 @@ A community-powered platform for giving away items you no longer need.
 - Includes image validation and provides fallback image
 - Shows time posted + archives after 2 weeks
 
-### Live Demo
-
 🔗 [Visit GiveIt](https://giveit.netlify.app)
 
-![GiveIt Preview](preview.png)
-
----
+![GiveIt Preview](./public/preview.png)
 
 ## Features
 
@@ -31,11 +27,32 @@ A community-powered platform for giving away items you no longer need.
 - Font: Aeonik (custom applied)
 - Fully responsive layout
 
----
-
 ## Tech Stack
 
 - React (w/ Vite)
-- Custom Modal + Spinner components
+- React Router
+- CSS
+- Netlify for deployment
+- MantaHQ API for backend data
 
----
+## Folder Structure
+
+```
+public/
+│ ...
+src/
+│ ├─ api/
+│ ├─ assets/          # Static assets (fonts, etc.)
+│ ├─ components/      # Reusable React components
+│ ├─ pages/           # Page-level components
+│ ├─ App.jsx          # Main app component
+│ ├─ main.jsx         # Entry point for React
+│ └─ index.css        # Global and component-specific styles
+```
+
+## Credits
+
+- UI/UX by [Chimamanda Justus](https://www.linkedin.com/in/trevorcjustus)
+- API powered by [MantaHQ](https://www.mantahq.com)
+
+Say hello 👋🏽 on [LinkedIn](https://www.linkedin.com/in/trevorcjustus) or [X](https://www.x.com/trevoppa)!
