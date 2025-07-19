@@ -2,7 +2,7 @@
 
 A community-powered platform for giving away items you no longer need.
 
-### Built for the [MantaHQ x Nexascale BuildJam Hackathon](https://www.mantahq.com)
+### Built for the [MantaHQ](https://www.mantahq.com) x Nexascale](https://nexascale.org/) BuildJam Hackathon
 
 - UI/UX Design by me
 - Developed with React + Vite
